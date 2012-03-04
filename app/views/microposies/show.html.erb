@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @microposy.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @microposy.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_microposy_path(@microposy) %> |
+<%= link_to 'Back', microposies_path %>
